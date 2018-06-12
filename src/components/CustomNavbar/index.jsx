@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Navbar, Nav, NavItem } from "react-bootstrap";
+import { Navbar, Nav, NavItem, Grid, Row, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import TwitterIcon from '../TwitterIcon';
 import './index.css';
 
 class CustomNavbar extends Component {
@@ -10,6 +11,7 @@ class CustomNavbar extends Component {
                 <Navbar.Header>
                     <Navbar.Brand>
                         <Link to="/">eduzen.com.ar</Link>
+                        <a href="https://twitter.com/_eduzen_" target="_blank"><TwitterIcon /></a>
                     </Navbar.Brand>
                     <Navbar.Toggle />
                 </Navbar.Header>

@@ -1,7 +1,7 @@
 import React from 'react';
-import loaderSrc from '../../assets/loader.gif';
+import loaderSrc from '../../assets/twitter.png';
 
-const Loader = props => (
+const TwitterIcon = props => (
     <div>
         <img
           style={{ width: 45 }}
@@ -10,4 +10,4 @@ const Loader = props => (
     </div>
 );
 
-export default Loader;
+export default TwitterIcon;

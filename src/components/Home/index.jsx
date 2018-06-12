@@ -8,10 +8,13 @@ class Home extends Component {
         return (
             <Grid>
                 <Jumbotron>
-                    <h2> HOLA MUNDO</h2>
+                    <h2> Algunos post sobre python, linux y la vida como dev</h2>
                 </Jumbotron>
-                <Link to="/about"><Button bsStyle="primary">About</Button></Link>
-                <Link to="/contact"/>
+                <Row className='show-grid text-center'>
+                    <Col xs={12} sm={4} className="blog-wrapper">
+                        <Image src='' />
+                    </Col>
+                </Row>
             </Grid>
         )
     }
